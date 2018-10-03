@@ -1,0 +1,164 @@
+body{
+    background-color: #0E1428;
+
+}
+#container {
+    width: 1100px;
+    height: 1050px;
+    margin: 0 auto;
+    background-color: #0E1428;
+    
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #BDBEC4;
+    text-decoration: none;
+}
+#searchBox{
+    float: right;
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    background: radial-gradient(#0D1325, #0E1428);
+    
+    
+}
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brandTitle{
+    float: left
+}
+.text {
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: white url(image/search.png) right center no-repeat;
+    
+}
+
+.submit {
+    float: right;
+    margin-right: 0px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background: #151E3D;
+    border-radius: 5px;
+}
+.clear{
+    clear: both;
+}
+
+#menu {
+    
+    height: 70px;
+    background: linear-gradient(#141D3C,#25336B);
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 20px;
+    height: 20px;
+    border-right: 1px solid #BDBEC4;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #BDBEC4;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a:hover{
+    font-size: 20px;
+    color: #EBEDF3;
+    
+}
+#intro{
+    
+    background: linear-gradient(#141D3C,#25336B);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+#intro p{
+    font-size: 20px;
+    line-height: 1.7;
+    color: #E6E7ED;
+    text-align: justify
+}
+#intro h1{
+    color: #EBEDF3;
+    padding: 0px 300px 10px 300px;
+    
+
+}
+.sidebar{
+    height: 500px;
+    width:530px;
+    border: 1px solid #25336B;
+    border-radius: 20px;
+    
+    background: linear-gradient(#141D3C,#25336B);
+    
+
+    
+}
+#leftsidebar{
+    float: left;
+    clear:left;
+    
+    
+}
+#rightsidebar{
+    float: right;
+    clear: right;
+    
+}
+#leftsidebar ul li a{
+    text-decoration: none;
+    color: #EBEDF3;
+       
+}
+
+.sidebar h2{
+    font-size: 35px;
+    color: #EBEDF3;
+    padding-left: 180px;
+
+    
+}
+.sidebar ul li{
+    list-style: none;
+    color: #BDBEC4;
+    font-size: 26px;
+    line-height: 1.6;
+    transition: font-size 0.3s ease;
+    
+}
+.sidebar ul li:hover{
+    list-style: none;
+    color: #EBEDF3;
+    font-size: 28px;
+        
+}
